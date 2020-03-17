@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        fill: #3282b8;
+        text-anchor: middle;
+        font-family: "Apple SD Gothic Neo";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="MG" class="logo" stroke="#000000" class="cls-1" transform="translate(255.613 387.896) scale(4.772)"><tspan x="0">MG</tspan></text>
+</svg>
