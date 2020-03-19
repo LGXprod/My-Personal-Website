@@ -31,7 +31,6 @@ function Home() {
     return (
         <div>
             <Navbar pagesActive={[true, false, false]} />
-            <hr />
             {/* <Panel img={require("../images/background.png")} /> */}
             {/* <Panel slideShow={true} slides={[{type: "panel", content: <Panel />}, {type: "image", content: require("../images/slideshow/footy.JPG")}]}/> */}
             <SlideShow>
@@ -49,7 +48,6 @@ function Home() {
                 <div></div>
                 <div></div>
             </SlideShow>
-            <hr />
             <Panel color="dark-green" heading="My Skill Set" skillPanels={skillPanels} />
         </div>
     );

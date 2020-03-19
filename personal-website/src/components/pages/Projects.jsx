@@ -7,7 +7,7 @@ function Projects() {
     return (
         <div>
             <Navbar pagesActive={[false, false, true]} />
-            <hr />
+
             <Panel color="dark-blue" infoPanel={true} heading="Q Software"
                 desc={["Formerly known as Ordinate, Q is a queuing tool for organisations with waiting rooms. The core feature of Q is that enables organisations to display the position of a customer in a list anonymously.", "This combined with an accurate, dynamic ETAs, which is generated from an algorithm using previous Q data, increases customer satisfaction and organisation efficency in a multitude of ways:", 
                 ["Patients are far less likely to get angry or stressed about the time they have waited as ETAs will eventually become more accurate than a receptionist's ETA. As well as the fact that they can see the position in the queue so they don't need to question whether a doctor has skipped them or if a receptionist has done something wrong.", 
@@ -17,7 +17,7 @@ function Projects() {
                 repoLink="https://github.com/LGXprod/Ordinate" repoName="Q Software Repository"
                 ytLink="https://www.youtube.com/embed/r6LxiygaTeI"
             />
-            <hr />
+
             <Panel infoPanel={true} color="dark-green" heading="PC Store Application" 
                 img={require("../images/projects/pc-store/overview.png")}
                 desc={["This PC store application was an assignment given to me at university. Below is part of the specification given for part 1 of the assignment:",
@@ -27,7 +27,7 @@ function Projects() {
                 "Overall I achieved 98% for the assignment and the 2% I lost was from not properly binding data from the controller to the view."]}
                 repoName="PC Store App Repository" repoLink="https://github.com/LGXprod/PC-Store-App"
             />
-            <hr />
+
             <Panel infoPanel={true} color="dark-blue" heading="My Personal Website" ytLink="http://localhost:3000" 
                 desc={["This was my first attempt at designing and coding a purely front-end website. I started by opening up photoshop and creating a prototype of the front page of the website. I did this by simply using the rectangle tool (to simulate divs) and rulers for alignment and padding. I did add text but wasn't to concerned with font choices as I was going to let bootstrap handle that.",
                 "Once the prototype of the front page was completed I jumped straight into coding it. At the time I was learning the React framework and so I decided I would use it as I foresore me using combinations of different elements repeatedly (Panels, SkillPanels, GitElements). And as a consequence my website would become a SPA.",
@@ -35,7 +35,7 @@ function Projects() {
                 "In hindsight this was a very good decision because despite React being overkill for this project at some points, I know understand how to use it and will be considering it for many future web projects."]}
                 repoName="This Website's Repository" repoLink="https://github.com/LGXprod/My-Personal-Website"
             />
-            <hr />
+
             <Panel color="dark-green" infoPanel={true} img={require("../images/projects/node-cleaner.png")}
                 desc={["NodeJS code can often become messy and not compliant with the many, widely accepted standards. Especially in fast pace work environments as developing features is the first priority Node-cleaner is a python program that runs inside a terminal which allows node developers to quickly format all their code in several different ways.", " Furthermore, this allows some developers to ditch using/learning large IDEs or installing plugin after plugin into their text editor/IDE. At this time, the main formatting features included in Node Cleaner are the following:",
                 ["Adding semicolons to the end of lines that should have them", "Adding line breaks at the end of lines where appropriate", 

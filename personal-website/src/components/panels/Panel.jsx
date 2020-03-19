@@ -15,6 +15,7 @@ function Panel(props) {
                     border={props.border}
                 />
                 { props.repoLink != null && props.repoName != null ? <GitItem repoName={props.repoName} repoLink={props.repoLink} /> : null }
+                <hr />
             </div>
         );
 
