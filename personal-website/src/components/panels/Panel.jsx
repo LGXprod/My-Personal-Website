@@ -8,14 +8,14 @@ function Panel(props) {
     if (props.infoPanel) {
 
         return (
-            <div className={"panel " + props.color}>
+            <div className={"panel " + props.color} style={props.setHeight != null ? {"height": props.setHeight} : null}>
                 <InfoPanel heading={props.heading} img={props.img} desc={props.desc} repoLink={props.repoLink} 
                     repoName={props.repoName} ytLink={props.ytLink} slideItems={props.slideItems}
                     skillPanels={props.skillPanels} skillDesc={props.skillDesc} color={props.color}
                     border={props.border}
                 />
                 { props.repoLink != null && props.repoName != null ? <GitItem repoName={props.repoName} repoLink={props.repoLink} /> : null }
-                <hr />
+                { props.addHr ? <hr /> : null}
             </div>
         );
 

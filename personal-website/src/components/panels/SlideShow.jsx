@@ -40,13 +40,13 @@ function SlideShow(props) {
     var gallery = [];
 
     for (var slideNum in props.children) {
-        gallery.push(<div key={slideNum} id={"slide" + slideNum} style={{"display": "none", "height": "75vh"}}>{props.children[slideNum]}</div>)
+        gallery.push(<div key={slideNum} id={"slide" + slideNum} style={{"height": "75vh"}}>{props.children[slideNum]}</div>)
     }
 
     return (
         <div style={slideShow} id="slideshow">
             {gallery}
-            {addDots(props.children.length)}
+            {/* {addDots(props.children.length)} */}
         </div>
     );
 }
