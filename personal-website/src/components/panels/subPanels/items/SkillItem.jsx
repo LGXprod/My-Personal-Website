@@ -9,7 +9,7 @@ function addAssets(props) {
             return (
                 <div>
                     <img className="skill-img" src={props.asset} alt="Skill Image" />
-                    <h3 className="skill-text">{props.name}</h3>
+                    <h2 className="skill-text">{props.name}</h2>
                 </div>
             );
         }

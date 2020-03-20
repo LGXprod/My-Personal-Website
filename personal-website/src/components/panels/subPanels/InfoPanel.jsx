@@ -61,7 +61,7 @@ function addVisual(props) {
         return <SlideShow slideItems={props.slideItems} />
     } else if (props.skillPanels != null) {
         return (
-            <div className="info-img">
+            <div className="skill-section">
                 {addSkillPanels(props)}
                 <h3 className="skill-text">{props.skillDesc}</h3>
             </div>
