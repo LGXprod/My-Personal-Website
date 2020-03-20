@@ -11,9 +11,9 @@ function Navbar(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav mx-auto">
-                        <a id="home-link" className={ props.pagesActive[0] ? "nav-item nav-link active" : "nav-item nav-link" } onClick={() => {window.location.href="/#/"; window.location.reload();}}>Home <span className="sr-only">(current)</span></a>
-                        <a className={ props.pagesActive[1] ? "nav-item nav-link active" : "nav-item nav-link" } href="/#/Education">Education</a>
-                        <a className={ props.pagesActive[2] ? "nav-item nav-link active" : "nav-item nav-link" } href="/#/Projects">Projects</a>
+                        <a id="home-link" className={ props.pagesActive[0] ? "nav-item nav-link active" : "nav-item nav-link" } onClick={() => {window.location.href="/Personal-Website/#/"; window.location.reload();}}>Home <span className="sr-only">(current)</span></a>
+                        <a className={ props.pagesActive[1] ? "nav-item nav-link active" : "nav-item nav-link" } href="/Personal-Website/#/Education">Education</a>
+                        <a className={ props.pagesActive[2] ? "nav-item nav-link active" : "nav-item nav-link" } href="/Personal-Website/#/Projects">Projects</a>
                     </div>
                 </div>
             </nav>
