@@ -31,7 +31,6 @@ function Home() {
     return (
         <div>
             <Navbar pagesActive={[true, false, false]} />
-            <div style={{"position": "relative"}}>
                 <SlideShow>
                     <Panel color="dark-blue" infoPanel={true} heading="Q Software" ytLink="https://www.youtube.com/embed/r6LxiygaTeI"
                         desc={["Formerly known as Ordinate, Q is a queuing tool for organisations with waiting rooms. The core feature of Q is that enables organisations to display the position of a customer in a list anonymously.", "This combined with an accurate, dynamic ETAs, which is generated from an algorithm using previous Q data, increases customer satisfaction and organisation efficency in a multitude of ways:", 
@@ -42,12 +41,11 @@ function Home() {
                         // repoLink="https://github.com/LGXprod/Ordinate" repoName="Q Software Repository" 
                         addHr={false} setHeight="75vh"
                     />
-                    <img className="slide-img" alt="Me playing footy" src={require("../images/slideshow/footy.JPG")} />
+                    <div style={{width: "100%", height: "100%"}}>
+                        <img style={{width: "100%", height: "auto"}} className="slide-img" alt="Me playing footy" src={require("../images/slideshow/footy.JPG")} />
+                    </div>
                 </SlideShow>
                 <hr />
-                {/* <img className="prev" alt="Left arrow" src={require("../images/slideshow/leftArrow.png")} />
-                <img className="next" alt="Right arrow" src={require("../images/slideshow/rightArrow.png")} /> */}
-            </div>
             <Panel color="dark-green" heading="My Skill Set" skillPanels={skillPanels} />
         </div>
     );

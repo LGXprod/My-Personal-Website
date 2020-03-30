@@ -43,10 +43,19 @@ function SlideShow(props) {
         gallery.push(<div key={slideNum} id={"slide" + slideNum} style={{"height": "75vh"}}>{props.children[slideNum]}</div>)
     }
 
+    
+
     return (
-        <div style={slideShow} id="slideshow">
-            {gallery}
-            {/* {addDots(props.children.length)} */}
+        <div style={{"position": "relative"}}>
+            <div style={slideShow} id="slideshow">
+                {gallery}
+            </div>
+            <div style={{"position": "absolute", "bottom": "37.5%", "height": "25%"}}>
+                <img style={{"height": "100%"}} alt="Left arrow" className="leftArrow" src={require("../images/slideshow/leftArrow.png")} />
+            </div>
+            <div style={{"position": "absolute", "bottom": "37.5%", "right": "0", "height": "25%"}}>
+                <img style={{"height": "100%", "right": "0"}} alt="Right arrow" className="rightArrow" src={require("../images/slideshow/rightArrow.png")} />
+            </div>
         </div>
     );
 }
