@@ -28,7 +28,7 @@ function Projects() {
                 repoName="PC Store App Repository" repoLink="https://github.com/LGXprod/PC-Store-App"
             />
 
-            <Panel infoPanel={true} color="dark-blue" heading="My Personal Website" ytLink="http://localhost:3000" 
+            <Panel infoPanel={true} color="dark-blue" heading="My Personal Website" ytLink="https://lgxprod.github.io/Personal-Website/#/Projects" 
                 desc={["This was my first attempt at designing and coding a purely front-end website. I started by opening up photoshop and creating a prototype of the front page of the website. I did this by simply using the rectangle tool (to simulate divs) and rulers for alignment and padding. I did add text but wasn't to concerned with font choices as I was going to let bootstrap handle that.",
                 "Once the prototype of the front page was completed I jumped straight into coding it. At the time I was learning the React framework and so I decided I would use it as I foresore me using combinations of different elements repeatedly (Panels, SkillPanels, GitElements). And as a consequence my website would become a SPA.",
                 "There was a bit of a learning curve at times as there a few major differences between pure HTML5/CSS3/JS websites and react. For example, linking between pages requires a react module called 'React Router' and event handling requires managing 'state' (in older versions binding) as opposed to using dom/jQuery event handlers. In my opinion these set backs are worth it in favour for what I mentioned previously and its nothing reading docs and googling a problem can't fix.",

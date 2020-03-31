@@ -43,8 +43,6 @@ function SlideShow(props) {
         gallery.push(<div key={slideNum} id={"slide" + slideNum} style={{"height": "75vh"}}>{props.children[slideNum]}</div>)
     }
 
-    
-
     return (
         <div style={{"position": "relative"}}>
             <div style={slideShow} id="slideshow">
